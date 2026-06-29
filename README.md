@@ -29,10 +29,11 @@ This is a project that programs the ESP-32 microcontroller to read moisture leve
 
 <br> **In Adafruit IO**
 1. Go to io.adafruit.com and create a free account.
-2. Go to Feeds and create a new feed called soil-moisture
+2. Go to Feeds and create a new feed called "soil-moisture"
 3. Go to Dashboards and create a dashboard called "Plant Monitor".
 4. Add a Gauge block or a Line Chart block to your dashboard and link it to your soil-moisture feed.
-5. Copy your Adafruit IO Username and Active Key. **You will need these for your code!!**
+5. Go to Feeds and create a new feed called "plant-alerts"
+6. Copy your Adafruit IO Username and Active Key. **You will need these for your code!!**
 
 <br> **Connect Adafruit IO to IFTTT**
 1. On the IFTTT website or app, click Create to start a new "Applet".
